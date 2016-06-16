@@ -1,0 +1,32 @@
+{
+  "name": "MLC",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Make ManageBac have black text instead of the weird off-gray colour it has by default",
+  "homepage_url": "https://github.com/ohnx/MLC",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://*.managebac.com/*",
+    "https://*.managebac.com/",
+    "https://managebac.com/*",
+    "https://managebac.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.managebac.com/*",
+        "https://*.managebac.com/",
+        "https://managebac.com/*",
+        "https://managebac.com/"
+      ],
+      "css": [
+        "inject.css"
+      ]
+    }
+  ]
+}
