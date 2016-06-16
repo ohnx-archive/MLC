@@ -4,7 +4,13 @@ managebac has a weird off-gray colour that is used for text.
 
 that is a terrible idea. I cannot imagine why on earth anyone would prefer to read off-gray on white instead of black on white.
 
-this fixes that problem by injecting a css file that modifies the colour from the default #58646d to a much nicer #000.
+this fixes that problem by injecting a css file that modifies the colour from the default:
+
+![#58646d](https://placehold.it/100/58646d/58646d)
+
+to a much nicer:
+
+![#000000](https://placehold.it/100/000000/000000).
 
 ManageBac looks good! the only problem is the font color.
 
